@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --border-color: rgb(52, 86, 241);
+    --background-color: rgb(158, 206, 235);
+    --hover-color:rgb(206, 232, 248);
+    --text-color: rgb(211, 30, 30);
+    --color-error:#D8000C;
+    --color-warn:#9F6000;
+    --color-success:#4F8A10;
+    --color-info:#BDE5F8;
+    
+}
+/* CSS dùng chung */
+label{
+    display:inline-block;
+    width: 80px;
+    height:30px;
+    background-color: var(--background-color);
+    border:1px solid var(--border-color);
+    text-align: center;
+    line-height: 30px;
+}
+a,button{
+    text-decoration: none;
+    font-size: 16px;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    padding:4px;
+    border-radius: 3px;
+}
+a:hover,
+button:hover{
+    cursor: pointer;
+    color: var(--color-error);
+    background-color: var(--hover-color);
+    border: 1px solid var(--border-color);
+
+}
+.notification{
+    color: var(--color-success);
+    display: block;
+    text-align: center;
+}
+input{
+    padding: 5px;
+}
+/* Start CSS */
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+
+.add{
+    margin: 100px auto;
+    height: 300px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content_add{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.item_add{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 48px;
+    width: 360px;
+}
+
+
+table{
+    margin: 50px auto;
+}
+table,th,td{
+    border:1px solid;
+    border-collapse: collapse;
+}
+
+td input{
+    border: none;
+    outline: none;
+    text-align: center;
+
+}
+
+.change{
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    align-items: center;
+    height:200px;
+    justify-content: space-evenly;
+}
