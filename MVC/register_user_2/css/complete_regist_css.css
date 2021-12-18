@@ -1,0 +1,19 @@
+.complete_regist_form{
+    border: 1px solid var(--border_color);
+    font-size: 15px;
+    padding: 10px 50px;
+}
+.complete_all-item{
+    height: 300px;
+    width: 450px;
+}
+.complete_item{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+.complete_item input{
+    border: none;
+    margin-left: 80px;
+    
+}

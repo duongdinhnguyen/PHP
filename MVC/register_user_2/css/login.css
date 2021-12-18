@@ -1,0 +1,20 @@
+html{
+    font-size: 62.5%;
+}
+.login_form{
+    font-size: 1.5rem;
+    width: 48rem;
+    height: 24rem;
+    border: 0.1rem solid rgb(47, 153, 153);
+}
+.login_item{
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    justify-content: space-evenly;
+    margin: 1.6rem 0;
+}
+.notification{
+    margin-left: 2rem;
+}
+

@@ -1,0 +1,39 @@
+.regist_form {
+            height: 360px;
+            max-width: 500px;
+            border: 1px solid var(--border_color);
+            padding:15px 30px;
+        }
+.regist_all_item{
+    width: 450px;
+}
+.regist_item{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.select_genders{
+    width: 280px;
+    display: flex;
+    align-items: center;
+}
+.select_gender_item{
+    display: flex;
+    margin: 0 20px;
+}
+.gioitinh{
+    border: 1px solid var(--border_color);
+    margin: 0 10px 0 5px;
+}
+
+
+
+
+
+
+
+
+        
+
+        
+   

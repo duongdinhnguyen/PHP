@@ -1,0 +1,17 @@
+.do-regist_form{
+    padding: 10px 30px;
+    border: 1px solid rgb(47, 153, 153);
+}
+.do_regist_all_item{
+    height: 300px;
+    width: 450px;
+}
+.do_regist_item{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.do_regist_item input{
+    border: none;
+    margin-left: 50px;
+}
