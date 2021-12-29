@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <?php 
-// quay trở lại login.php khi chưa nhập đủ thông tin
-    if(!isset($_SESSION["notification"])){
-        header("location:login.php");
-    }
+if(!isset($_SESSION['notification'])){
+    header("location:http://localhost/project_MVC/register_user_2/");
+}
 ?>
 <html lang="en">
 <head>

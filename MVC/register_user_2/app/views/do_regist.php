@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php 
+if(!isset($_SESSION['notification'])){
+    header("location:http://localhost/project_MVC/register_user_2/");
+}
+?>
 <html>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/do_regist_css.css"/>

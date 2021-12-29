@@ -15,16 +15,8 @@ class DB{
       echo "Connection failed: " . $e->getMessage();
     }
   }
-  public function selectData(){
-    $sql= "SELECT * FROM admin";
-    $result = $this->conn->query($sql);
-    return $result;
-  }
-  public function printData(){
-    $data= $this->selectData();
-    foreach($data as $item):
-      echo $item['username'];
-    endforeach;
-  }
 }
+
+
 ?>
+ 

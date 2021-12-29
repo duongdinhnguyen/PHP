@@ -11,7 +11,7 @@
 </head>
 <body>
        <div class="content">
-        <form class="login_form" action="<?php $_PHP_SELF ?>" method="POST">
+        <form class="login_form" action="" method="POST">
             <div class="login_item">
                 <p class="notification">
                     <?php 
