@@ -10,8 +10,8 @@ if(!isset($_SESSION['notification'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/complete_regist_css.css">
+    <link rel="stylesheet" href="public/css/base.css">
+    <link rel="stylesheet" href="public/css/complete_regist_css.css">
     <title>Document</title>
 </head>
 <body>

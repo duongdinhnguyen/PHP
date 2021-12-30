@@ -6,8 +6,8 @@ if(!isset($_SESSION['notification'])){
 }
 ?>
 <html>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/regist_css.css">
+    <link rel="stylesheet" href="public/css/base.css">
+    <link rel="stylesheet" href="public/css/regist_css.css">
      
 <head></head>
 <body>
